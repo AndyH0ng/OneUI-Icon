@@ -9,7 +9,7 @@
   <item component="ComponentInfo{com.kakaobank.channel/com.kakaobank.channel.presentation.view.activity.StartActivity}" drawable="kakao_bank"/>
 
   <!-- 카카오페이 -->
-
+  <item component="ComponentInfo{com.kakaopay.app/com.kakaopay.app.PayMainActivity}" drawable="kakao_pay"/>
 
   <!-- 카카오내비 -->
   <item component="ComponentInfo{com.locnall.KimGiSa/com.locnall.KimGiSa.activity.IntroActivity}" drawable="kakao_navi"/>
@@ -31,8 +31,18 @@
   <!-- 카카오지하철 -->
   <item component="ComponentInfo{net.orizinal.subway/com.kakao.kakaometro.ui.login.LoginActivity}" drawable="kakao_metro"/>
 
+  <!-- 카카오페이지 -->
+  <item component="ComponentInfo{com.kakao.page/com.kakao.page.activity.SplashActivity}" drawable="kakao_page"/>
+
+  <!-- 헤이카카오 -->
+  <item component="ComponentInfo{com.kakao.i.connect/com.kakao.i.app.SplashActivity}" drawable="hay_kakao"/>
+
   <!-- 멜론 -->
   <item component="ComponentInfo{com.iloen.melon/com.iloen.melon.MusicBrowserActivity}" drawable="melon"/>
+
+  <!-- 다음 웹툰 -->
+  <item component="ComponentInfo{net.daum.android.webtoon/net.daum.android.webtoon.gui.LaunchingActivity}" drawable="daum_webtoon"/>
+  <item component="ComponentInfo{net.daum.android.webtoon/net.daum.android.webtoon.gui.LaunchingActivity_}" drawable="daum_webtoon"/>
 
   <!-- 네이버 -->
   <item component="ComponentInfo{com.nhn.android.search/com.nhn.android.search.ui.pages.SearchHomePage}" drawable="naver"/>
@@ -54,11 +64,23 @@
   <!-- 네이버 파파고 -->
   <item component="ComponentInfo{com.naver.labs.translator/com.naver.labs.translator.ui.main.SplashActivity}" drawable="papago"/>
 
+  <!-- LINE -->
+  <item component="ComponentInfo{jp.naver.line.android/jp.naver.line.android.activity.SplashActivity}" drawable="naver_line"/>
+
+  <!-- LINE Manga -->
+  <item component="ComponentInfo{jp.naver.linemanga.android/jp.naver.linemanga.android.LoginActivity}" drawable="line_manga"/>
+
+  <!-- V LIVE -->
+  <item component="ComponentInfo{com.naver.vapp/com.naver.vapp.ui.common.SplashActivity}" drawable="v_live"/>
+
   <!-- 토스 -->
   <item component="ComponentInfo{viva.republica.toss/viva.republica.toss.splash.SplashActivity}" drawable="toss"/>
 
   <!-- 쿠팡 -->
   <item component="ComponentInfo{com.coupang.mobile/com.coupang.mobile.activity.SplashActivity}" drawable="coupang"/>
+
+  <!-- LG TV Plus -->
+  <item component="ComponentInfo{com.lge.app1/com.lge.app1.activity.SplashActivity}" drawable="lg_tv_plus"/>
 
   <!-- Google -->
   <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google"/>
@@ -80,6 +102,7 @@
   <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome"/>
   <item component="ComponentInfo{com.chrome.beta/com.android.apps.chrome.Main}" drawable="chrome"/>
   <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="chrome"/>
+  <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.Main}" drawable="chrome"/>
   <item component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}" drawable="chrome"/>
   <item component="ComponentInfo{com.chrome.canary/com.google.android.apps.chrome.Main}" drawable="chrome"/>
   <item component="ComponentInfo{com.chrome.canary/com.google.android.apps.chrome.LauncherMain}" drawable="chrome"/>
@@ -210,11 +233,22 @@
   <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorderTab}" drawable="sound_recorder"/>
   <item component="ComponentInfo{com.android.soundrecordermirror/com.android.soundrecordermirror.SoundRecorder}" drawable="sound_recorder"/>
 
+  <!-- DMB -->
+  <item component="ComponentInfo{com.sec.android.app.dmb/com.sec.android.app.dmb.activity.DMBFullScreenView}" drawable="dmb"/>
+  <item component="ComponentInfo{com.samsung.mobiletv/com.samsung.mobiletv.ui.MtvUiPlayer}" drawable="dmb"/>
+  <item component="ComponentInfo{com.samsung.android.app.dtv.dmb/com.samsung.android.app.dtv.dmb.activity.DMBFullScreenView}" drawable="dmb"/>
+  <item component="ComponentInfo{com.samsung.android.app.dtv.sbtvd/com.samsung.android.app.dtv.sbtvd.ui.MtvUiPlayer}" drawable="dmb"/>
+  <item component="ComponentInfo{com.lge.tdmb/com.lge.tdmb.TdmbStartActivity}" drawable="dmb"/>
+  <item component="ComponentInfo{com.pantech.app.tdmb/com.pantech.app.tdmb.DMBPlayer}" drawable="dmb"/>
+  <item component="ComponentInfo{com.motorola.dtv/com.motorola.dtv.activity.main.MainActivity}" drawable="dmb"/>
+
+
   <!-- 디바이스 케어 -->
   <item component="ComponentInfo{com.samsung.android.lool/com.samsung.android.sm.ui.DefaultActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.samsung.android.sm/com.samsung.android.sm.app.dashboard.SmartManagerDashBoardActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.samsung.android.sm/com.samsung.android.sm.ui.dashboard.SmartManagerDashBoardActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.samsung.android.sm/com.samsung.android.sm.ui.scoreboard.ScoreBoardActivity}" drawable="device_care"/>
+  <item component="ComponentInfo{com.lge.phonemanagement/com.lge.phonemanagement.ui.MainActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.blackberry.privacydashboard/com.blackberry.privacydashboard.SafeguardActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.miui.securitycenter/com.miui.securityscan.MainActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.huawei.systemmanager/com.huawei.systemmanager.mainscreen.MainScreenActivity}" drawable="device_care"/>
@@ -222,6 +256,9 @@
   <item component="ComponentInfo{com.asus.mobilemanager/com.asus.mobilemanager.entry.FunctionActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.asus.mobilemanager/com.asus.mobilemanager.MainActivity}" drawable="device_care"/>
   <item component="ComponentInfo{com.coloros.safecenter/com.coloros.safecenter.FakeActivity}" drawable="device_care"/>
+
+  <!-- 디지털 웰빙 -->
+  <item	component="ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.settings.LauncherActivity}" drawable="digital_wellbeing"/>
 
   <!-- Bixby Voice -->
   <item component="ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity}" drawable="bixby_voice"/>
@@ -232,12 +269,12 @@
   <!-- Nice Shot -->
   <item component="ComponentInfo{com.samsung.android.app.captureplugin/com.samsung.android.app.captureplugin.hashtag.tagboard.TagBoardActivity}" drawable="nice_shot"/>
 
-  <!-- TODO:Pivacy Shade -->
+  <!-- BlackBerry: Pivacy Shade -->
   <item component="ComponentInfo{com.blackberry.privacyfilter/com.blackberry.privacyfilter.ToggleActivity}" drawable=""/>
 
-  <!-- TODO:Password Keeper -->
+  <!-- TODO: BlackBerry: Password Keeper -->
   <item component="ComponentInfo{com.blackberry.passwordkeeper/com.blackberry.passwordkeeper.WhatsNewActivity}" drawable=""/>
 
-  <!-- TODO:Notable -->
+  <!-- BlackBerry: Notable -->
   <item component="ComponentInfo{com.blackberry.jot/com.blackberry.jot.MainActivity}" drawable=""/>
 </resources>
