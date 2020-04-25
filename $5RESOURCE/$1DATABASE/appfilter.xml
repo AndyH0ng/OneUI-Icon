@@ -37,6 +37,9 @@
   <!-- 헤이카카오 -->
   <item component="ComponentInfo{com.kakao.i.connect/com.kakao.i.app.SplashActivity}" drawable="hay_kakao"/>
 
+  <!-- 카카오홈 -->
+  <item component="ComponentInfo{com.kakao.home/com.kakao.home.EntryPointActivity}" drawable="kakao_home"/>
+
   <!-- 멜론 -->
   <item component="ComponentInfo{com.iloen.melon/com.iloen.melon.MusicBrowserActivity}" drawable="melon"/>
 
@@ -73,6 +76,62 @@
   <!-- V LIVE -->
   <item component="ComponentInfo{com.naver.vapp/com.naver.vapp.ui.common.SplashActivity}" drawable="v_live"/>
 
+  <!-- Microsoft Office -->
+  <item component="ComponentInfo{com.microsoft.office.officehub/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="microsoft_office"/>
+	<item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="microsoft_office"/>
+	<item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officemobile.OfficeMobileActivity}" drawable="microsoft_office"/>
+
+  <!-- 한컴오피스 -->
+  <item component="ComponentInfo{com.hancom.office.hwp.HwpLauncher}" name="hancom_office"/>
+  <item component="ComponentInfo{com.hancom.office.editor.sec/com.hancom.office.hwp.HwpLauncher}" drawable="hancom_office"/>
+  <item component="ComponentInfo{com.hancom.office.hwp.editor.hwp_apk/com.hancom.office.hwp.HwpLauncher}" drawable="hancom_office"/>
+  <item component="ComponentInfo{com.hancom.office.editor/com.tf.thinkdroid.manager.EditorStartActivity}" drawable="hancom_office"/>
+  <item component="ComponentInfo{kr.co.hancom.hancomviewer.androidmarket/com.tf.thinkdroid.manager.activity.StartActivity}" drawable="hancom_office"/>
+
+  <!-- 클리앙 -->
+  <!-- XXX 서드파티 클라이언트 포함 -->
+  <item component="ComponentInfo{com.sukko.clien/com.sukko.MainActivity}" drawable="clien"/>
+  <item component="ComponentInfo{net.nvyu.app.clian/net.nvyu.app.clian.ui.MainActivity}" drawable="clien"/>
+  <item component="ComponentInfo{com.mobile.app.clien/com.mobile.app.clien.MainActivity}" drawable="clien"/>
+  <item component="ComponentInfo{net.sokum.clienbrowser/net.sokum.clienbrowser.MainActivity}" drawable="clien"/>
+  <item component="ComponentInfo{com.nullable.clien.beta/com.nullable.clien.view.MainActivity}" drawable="clien"/>
+  <item component="ComponentInfo{com.esstudio.clien/com.esstudio.clien.activity.RecentActivity}" drawable="clien"/>
+  <item component="ComponentInfo{priv.codingbv.clview/priv.codingbv.clview.view.SlidingMainActivity}" drawable="clien"/>
+  <item component="ComponentInfo{com.evonit.clien.mobilewrapper/com.evonit.clien.mobilewrapper.MainActivity}" drawable="clien"/>
+
+  <!-- Reddit -->
+  <!-- XXX 서드파티 클라이언트 포함 -->
+  <item component="ComponentInfo{reddit.news/reddit.news.RedditNavigation}" drawable="reddit"/>
+  <item component="ComponentInfo{free.reddit.news/reddit.news.RedditNavigation}" drawable="reddit"/>
+  <item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.StartActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{me.ccrama.redditslide/me.ccrama.redditslide.Activities.Slide}" drawable="reddit"/>
+  <item component="ComponentInfo{me.ccrama.redditslide/me.ccrama.redditslide.Activities.MainActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.oddquark.hybrid/com.oddquark.hybrid.activities.SplashActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.ActivityYoutube}" drawable="reddit"/>
+  <item component="ComponentInfo{com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.IntentDispatcher}" drawable="reddit"/>
+  <item component="ComponentInfo{com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.ActivityRedditNow}" drawable="reddit"/>
+  <item component="ComponentInfo{com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.ActivityZoomableImage}" drawable="reddit"/>
+  <item component="ComponentInfo{com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.activities.ActivityRedditNow}" drawable="reddit"/>
+  <item component="ComponentInfo{com.rubenmayayo.reddit/com.rubenmayayo.reddit.ui.submissions.subreddit.MainActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.andrewshu.android.redditdonation/com.andrewshu.android.reddit.MainActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync/com.laurencedawson.reddit_sync.ui.RedditActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync/com.laurencedawson.reddit_sync.activities.MainActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync/com.laurencedawson.reddit_sync.ui.activities.HomeActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync/com.laurencedawson.reddit_sync.ui.activities.HomeActivity.Fancy}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync.dev/com.laurencedawson.reddit_sync.activities.MainActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync.dev/com.laurencedawson.reddit_sync.ui.activities.HomeActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync.pro/com.laurencedawson.reddit_sync.ui.RedditActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync.pro/com.laurencedawson.reddit_sync.activities.MainActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync.pro/com.laurencedawson.reddit_sync.ui.activities.HomeActivity}" drawable="reddit"/>
+  <item component="ComponentInfo{com.laurencedawson.reddit_sync.pro/com.laurencedawson.reddit_sync.ui.activities.HomeActivity.Fancy}" drawable="reddit"/>
+  <item component="ComponentInfo{com.andrewshu.android.reddit/com.andrewshu.android.reddit.MainActivity}" drawable="reddit_alt"/>
+  <item component="ComponentInfo{com.andrewshu.android.reddit/com.andrewshu.android.reddit.ThreadsListActivity}" drawable="reddit_alt"/>
+  <item component="ComponentInfo{com.andrewshu.android.redditdonation/com.andrewshu.android.reddit.MainActivity}" drawable="reddit_alt"/>
+  <item component="ComponentInfo{com.andrewshu.android.redditdonation/com.andrewshu.android.redditdonation.threads.ThreadsListActivity}" drawable="reddit_alt"/>
+
+  <!-- TikTok -->
+  <item component="ComponentInfo{com.ss.android.ugc.trill/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tik_tok"/>
+
   <!-- 토스 -->
   <item component="ComponentInfo{viva.republica.toss/viva.republica.toss.splash.SplashActivity}" drawable="toss"/>
 
@@ -81,6 +140,14 @@
 
   <!-- LG TV Plus -->
   <item component="ComponentInfo{com.lge.app1/com.lge.app1.activity.SplashActivity}" drawable="lg_tv_plus"/>
+
+  <!-- 쿠키런 -->
+  <item component="ComponentInfo{com.devsisters.gb/com.devsisters.gb.AppActivity}" drawable="cookie_run"/>
+  <item component="ComponentInfo{com.linecorp.LGCOOKIE/com.devsisters.CookieRunForKakao.OvenbreakX}" drawable="cookie_run"/>
+  <item component="ComponentInfo{com.devsisters.CookieRunForKakao/com.devsisters.CookieRunForKakao.OvenbreakX}" drawable="cookie_run"/>
+
+  <!-- Animal Crossing Pocket Camp -->
+  <item component="ComponentInfo{com.nintendo.zaca/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity}" drawable="animal_crossing_pocket_camp"/>
 
   <!-- Google -->
   <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google"/>
@@ -109,7 +176,7 @@
   <item component="ComponentInfo{org.chromium.chrome/org.google.android.apps.chrome.Main}" drawable="chrome"/>
 
   <!-- YouTube -->
-  <!-- TODO YouTube Vanced / OGYouTube 포함 -->
+  <!-- XXX YouTube Vanced / OGYouTube 포함 -->
   <item component="ComponentInfo{com.youtube.android/com.youtube.android.MainActivity}" drawable="youtube"/>
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomePage}" drawable="youtube"/>
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="youtube"/>
@@ -132,6 +199,13 @@
   <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.honeycomb.VideosActivity}" drawable="play_movies"/>
   <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="play_music"/>
   <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="play_games"/>
+
+  <!-- Google Pay -->
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.WalletRootActivity}" drawable="google_pay"/>
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_pay"/>
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity}" drawable="google_pay"/>
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.upgrade.WalletUpgradeActivity}" drawable="google_pay"/>
+  <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.android.apps.nbu.paisa.user.launcher.LauncherActivity}" drawable="google_pay"/>
 
   <!-- Google 번역 -->
   <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivity}" drawable="google_translate"/>
@@ -223,7 +297,7 @@
   <item component="ComponentInfo{com.htc.soundrecorder/com.htc.soundrecorder.SoundRecorderBG}" drawable="sound_recorder"/>
   <item component="ComponentInfo{com.letv.android.recorder/com.letv.android.recorder.RecorderActivity}" drawable="sound_recorder"/>
   <item component="ComponentInfo{org.lineageos.recorder/org.lineageos.recorder.RecorderActivity}" drawable="sound_recorder"/>
-  <item component="ComponentInfo{org.pixelexperience.recorder/org.pixelexperience.recorder.RecorderActivity}" drawable="recorder" />
+  <item component="ComponentInfo{org.pixelexperience.recorder/org.pixelexperience.recorder.RecorderActivity}" drawable="recorder"/>
   <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.AsusRecorder}" drawable="sound_recorder"/>
   <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.MzRecorderActivity}" drawable="sound_recorder"/>
   <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.RecorderActivity}" drawable="sound_recorder"/>
@@ -241,7 +315,6 @@
   <item component="ComponentInfo{com.lge.tdmb/com.lge.tdmb.TdmbStartActivity}" drawable="dmb"/>
   <item component="ComponentInfo{com.pantech.app.tdmb/com.pantech.app.tdmb.DMBPlayer}" drawable="dmb"/>
   <item component="ComponentInfo{com.motorola.dtv/com.motorola.dtv.activity.main.MainActivity}" drawable="dmb"/>
-
 
   <!-- 디바이스 케어 -->
   <item component="ComponentInfo{com.samsung.android.lool/com.samsung.android.sm.ui.DefaultActivity}" drawable="device_care"/>
